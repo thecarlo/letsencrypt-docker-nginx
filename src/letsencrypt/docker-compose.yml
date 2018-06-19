@@ -4,7 +4,7 @@ services:
 
   letsencrypt-nginx-container:
     container_name: 'letsencrypt-nginx-container'
-    image: nginx:latest
+    image: nginx:1.14.0
     ports:
       - "80:80"
     volumes:
